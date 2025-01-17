@@ -4,8 +4,18 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        light: '#fff',
+        lighter: '#eaeef2',
+        dark: '#000',
+        darker: '#111',
+      }
+    },
   },
 
-  plugins: []
+  plugins: [
+    // require('daisyui'),
+  ],
+  darkMode: 'selector',
 } satisfies Config;
