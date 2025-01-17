@@ -15,12 +15,17 @@
 
     const columns = Array.from({ length: numCols }, () => document.createElement("div"));
     columns.forEach(c =>  c.classList.add("child"));
+    parent.replaceChildren(...columns);
 
     for (let i = 0; i < items.length; i++) {
-      columns[i % numCols].appendChild(items[i]);
+      if (i < numCols) {
+        columns[i].appendChild(items[i]);
+      }
+      else {
+        const shortestColumn = columns.reduce((a, b) => Array.from(a.children).reduce((sum, child) => sum + child.clientHeight, 0) < Array.from(b.children).reduce((sum, child) => sum + child.clientHeight, 0) ? a : b);
+        shortestColumn.appendChild(items[i]);
+      }
     }
-
-    parent.replaceChildren(...columns);
   };
 
   onMount(() => {
