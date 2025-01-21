@@ -76,7 +76,7 @@
     <kbd
         bind:this={kbd}
         transition:fade
-        class="absolute top-1/2 right-2 -translate-y-1/2 bg-sky-500 text-white px-2 rounded text-xs opacity-100 transition"
-        >Ctrl + K</kbd
+        class="absolute top-1/2 right-2 -translate-y-1/2 bg-sky-500 text-white px-1 rounded text-xs opacity-100 transition"
+        >⌘ K</kbd
     >
 </div>

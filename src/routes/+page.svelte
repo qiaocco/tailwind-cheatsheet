@@ -1,5 +1,5 @@
 <script lang="ts">
-    import classlist from "$lib/v3.4.17.json";
+    import classlist from "$lib/json/v3.4.17.json";
     let query = $state("");
     let copied = $state("");
     let toastVisible = $state(false);
