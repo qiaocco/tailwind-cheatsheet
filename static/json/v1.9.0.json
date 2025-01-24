@@ -10272,6 +10272,36 @@
             "class": "border-separate",
             "properties": "border-collapse: separate;",
             "value": ""
+          },
+          {
+            "class": "Indiana",
+            "properties": "Indianapolis",
+            "value": ""
+          },
+          {
+            "class": "Ohio",
+            "properties": "Columbus",
+            "value": ""
+          },
+          {
+            "class": "Michigan",
+            "properties": "Detroit",
+            "value": ""
+          },
+          {
+            "class": "Indiana",
+            "properties": "Indianapolis",
+            "value": ""
+          },
+          {
+            "class": "Ohio",
+            "properties": "Columbus",
+            "value": ""
+          },
+          {
+            "class": "Michigan",
+            "properties": "Detroit",
+            "value": ""
           }
         ]
       },
@@ -10288,6 +10318,36 @@
           {
             "class": "table-fixed",
             "properties": "table-layout: fixed;",
+            "value": ""
+          },
+          {
+            "class": "Intro to CSS",
+            "properties": "Adam",
+            "value": ""
+          },
+          {
+            "class": "A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design",
+            "properties": "Adam",
+            "value": ""
+          },
+          {
+            "class": "Intro to JavaScript",
+            "properties": "Chris",
+            "value": ""
+          },
+          {
+            "class": "Intro to CSS",
+            "properties": "Adam",
+            "value": ""
+          },
+          {
+            "class": "A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design",
+            "properties": "Adam",
+            "value": ""
+          },
+          {
+            "class": "Intro to JavaScript",
+            "properties": "Chris",
             "value": ""
           }
         ]

@@ -1,5 +1,22 @@
 <script lang="ts">
-    
+    import v4 from "$lib/json/v4.0.json";
+    import v3 from "$lib/json/v3.4.17.json";
+    import v2 from "$lib/json/v2.2.16.json";
+    import v1 from "$lib/json/v1.9.0.json";
+    import v0 from "$lib/json/v0.7.4.json";
+    import { tw_versions } from "$lib/appStore";
+
+    let { selected_v = $bindable(), jsondata = $bindable() } = $props();
+
+    async function loadData() {
+        switch (selected_v) {
+            case tw_versions[0]: jsondata = v4; break;
+            case tw_versions[1]: jsondata = v3; break;
+            case tw_versions[2]: jsondata = v2; break;
+            case tw_versions[3]: jsondata = v1; break;
+            case tw_versions[4]: jsondata = v0; break;
+        }
+    }
 </script>
 
 <button
@@ -42,9 +59,10 @@
 
 <select
     class="order-6 hidden w-full lg:flex hw-full mt-auto bg-sky-500 text-white px-2 py-1 rounded-md items-center gap-2"
+    bind:value={selected_v}
+    onchange={loadData}
 >
-    <option value="3.4.17" selected>v3.4.17</option>
-    <option value="2.2.19">v2.2.19</option>
-    <option value="1.9.6">v1.9.6</option>
-    <option value="0.7.4">v0.7.4</option>
+    {#each tw_versions as version}
+        <option value={version}>v{version}</option>
+    {/each}
 </select>

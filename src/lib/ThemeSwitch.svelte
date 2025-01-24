@@ -3,18 +3,18 @@
 
     let darkMode = true
 
-    if (browser) {  
-        if (
-            localStorage.theme === 'dark' ||
-            (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-        ) {
-            document.documentElement.classList.add('dark');
-            darkMode = true;
-        } else {
-            document.documentElement.classList.remove('dark');
-            darkMode = false;
-        }
-    }
+    // if (browser) {  
+    //     if (
+    //         localStorage.theme === 'dark' ||
+    //         (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    //     ) {
+    //         document.documentElement.classList.add('dark');
+    //         darkMode = true;
+    //     } else {
+    //         document.documentElement.classList.remove('dark');
+    //         darkMode = false;
+    //     }
+    // }
 
     function toggleTheme() {
         darkMode = !darkMode

@@ -4,7 +4,7 @@
     "children": [
       {
         "title": "Aspect Ratio",
-        "url": "https://v3.tailwindcss.com/docs/aspect-ratio",
+        "url": "https://tailwindcss.com/docs/aspect-ratio",
         "description": "Utilities for controlling the aspect ratio of an element.",
         "table": [
           {
@@ -26,7 +26,7 @@
       },
       {
         "title": "Container",
-        "url": "https://v3.tailwindcss.com/docs/container",
+        "url": "https://tailwindcss.com/docs/container",
         "description": "A component for fixing an element's width to the current breakpoint.",
         "table": [
           {
@@ -63,7 +63,7 @@
       },
       {
         "title": "Columns",
-        "url": "https://v3.tailwindcss.com/docs/columns",
+        "url": "https://tailwindcss.com/docs/columns",
         "description": "Utilities for controlling the number of columns within an element.",
         "table": [
           {
@@ -200,7 +200,7 @@
       },
       {
         "title": "Break After",
-        "url": "https://v3.tailwindcss.com/docs/break-after",
+        "url": "https://tailwindcss.com/docs/break-after",
         "description": "Utilities for controlling how a column or page should break after an element.",
         "table": [
           {
@@ -247,7 +247,7 @@
       },
       {
         "title": "Break Before",
-        "url": "https://v3.tailwindcss.com/docs/break-before",
+        "url": "https://tailwindcss.com/docs/break-before",
         "description": "Utilities for controlling how a column or page should break before an element.",
         "table": [
           {
@@ -294,7 +294,7 @@
       },
       {
         "title": "Break Inside",
-        "url": "https://v3.tailwindcss.com/docs/break-inside",
+        "url": "https://tailwindcss.com/docs/break-inside",
         "description": "Utilities for controlling how a column or page should break within an element.",
         "table": [
           {
@@ -321,7 +321,7 @@
       },
       {
         "title": "Box Decoration Break",
-        "url": "https://v3.tailwindcss.com/docs/box-decoration-break",
+        "url": "https://tailwindcss.com/docs/box-decoration-break",
         "description": "Utilities for controlling how element fragments should be rendered across multiple lines, columns, or pages.",
         "table": [
           {
@@ -338,7 +338,7 @@
       },
       {
         "title": "Box Sizing",
-        "url": "https://v3.tailwindcss.com/docs/box-sizing",
+        "url": "https://tailwindcss.com/docs/box-sizing",
         "description": "Utilities for controlling how the browser should calculate an element's total size.",
         "table": [
           {
@@ -355,7 +355,7 @@
       },
       {
         "title": "Display",
-        "url": "https://v3.tailwindcss.com/docs/display",
+        "url": "https://tailwindcss.com/docs/display",
         "description": "Utilities for controlling the display box type of an element.",
         "table": [
           {
@@ -467,7 +467,7 @@
       },
       {
         "title": "Floats",
-        "url": "https://v3.tailwindcss.com/docs/float",
+        "url": "https://tailwindcss.com/docs/float",
         "description": "Utilities for controlling the wrapping of content around an element.",
         "table": [
           {
@@ -499,7 +499,7 @@
       },
       {
         "title": "Clear",
-        "url": "https://v3.tailwindcss.com/docs/clear",
+        "url": "https://tailwindcss.com/docs/clear",
         "description": "Utilities for controlling the wrapping of content around an element.",
         "table": [
           {
@@ -536,7 +536,7 @@
       },
       {
         "title": "Isolation",
-        "url": "https://v3.tailwindcss.com/docs/isolation",
+        "url": "https://tailwindcss.com/docs/isolation",
         "description": "Utilities for controlling whether an element should explicitly create a new stacking context.",
         "table": [
           {
@@ -553,7 +553,7 @@
       },
       {
         "title": "Object Fit",
-        "url": "https://v3.tailwindcss.com/docs/object-fit",
+        "url": "https://tailwindcss.com/docs/object-fit",
         "description": "Utilities for controlling how a replaced element's content should be resized.",
         "table": [
           {
@@ -585,7 +585,7 @@
       },
       {
         "title": "Object Position",
-        "url": "https://v3.tailwindcss.com/docs/object-position",
+        "url": "https://tailwindcss.com/docs/object-position",
         "description": "Utilities for controlling how a replaced element's content should be positioned within its container.",
         "table": [
           {
@@ -637,7 +637,7 @@
       },
       {
         "title": "Overflow",
-        "url": "https://v3.tailwindcss.com/docs/overflow",
+        "url": "https://tailwindcss.com/docs/overflow",
         "description": "Utilities for controlling how an element handles content that is too large for the container.",
         "table": [
           {
@@ -719,7 +719,7 @@
       },
       {
         "title": "Overscroll Behavior",
-        "url": "https://v3.tailwindcss.com/docs/overscroll-behavior",
+        "url": "https://tailwindcss.com/docs/overscroll-behavior",
         "description": "Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area.",
         "table": [
           {
@@ -771,7 +771,7 @@
       },
       {
         "title": "Position",
-        "url": "https://v3.tailwindcss.com/docs/position",
+        "url": "https://tailwindcss.com/docs/position",
         "description": "Utilities for controlling how an element is positioned in the DOM.",
         "table": [
           {
@@ -803,7 +803,7 @@
       },
       {
         "title": "Top / Right / Bottom / Left",
-        "url": "https://v3.tailwindcss.com/docs/top-right-bottom-left",
+        "url": "https://tailwindcss.com/docs/top-right-bottom-left",
         "description": "Utilities for controlling the placement of positioned elements.",
         "table": [
           {
@@ -2745,7 +2745,7 @@
       },
       {
         "title": "Visibility",
-        "url": "https://v3.tailwindcss.com/docs/visibility",
+        "url": "https://tailwindcss.com/docs/visibility",
         "description": "Utilities for controlling the visibility of an element.",
         "table": [
           {
@@ -2812,7 +2812,7 @@
       },
       {
         "title": "Z-Index",
-        "url": "https://v3.tailwindcss.com/docs/z-index",
+        "url": "https://tailwindcss.com/docs/z-index",
         "description": "Utilities for controlling the stack order of an element.",
         "table": [
           {
@@ -2859,7 +2859,7 @@
     "children": [
       {
         "title": "Flex Basis",
-        "url": "https://v3.tailwindcss.com/docs/flex-basis",
+        "url": "https://tailwindcss.com/docs/flex-basis",
         "description": "Utilities for controlling the initial size of flex items.",
         "table": [
           {
@@ -3181,7 +3181,7 @@
       },
       {
         "title": "Flex Direction",
-        "url": "https://v3.tailwindcss.com/docs/flex-direction",
+        "url": "https://tailwindcss.com/docs/flex-direction",
         "description": "Utilities for controlling the direction of flex items.",
         "table": [
           {
@@ -3208,7 +3208,7 @@
       },
       {
         "title": "Flex Wrap",
-        "url": "https://v3.tailwindcss.com/docs/flex-wrap",
+        "url": "https://tailwindcss.com/docs/flex-wrap",
         "description": "Utilities for controlling how flex items wrap.",
         "table": [
           {
@@ -3230,7 +3230,7 @@
       },
       {
         "title": "Flex",
-        "url": "https://v3.tailwindcss.com/docs/flex",
+        "url": "https://tailwindcss.com/docs/flex",
         "description": "Utilities for controlling how flex items both grow and shrink.",
         "table": [
           {
@@ -3257,7 +3257,7 @@
       },
       {
         "title": "Flex Grow",
-        "url": "https://v3.tailwindcss.com/docs/flex-grow",
+        "url": "https://tailwindcss.com/docs/flex-grow",
         "description": "Utilities for controlling how flex items grow.",
         "table": [
           {
@@ -3274,7 +3274,7 @@
       },
       {
         "title": "Flex Shrink",
-        "url": "https://v3.tailwindcss.com/docs/flex-shrink",
+        "url": "https://tailwindcss.com/docs/flex-shrink",
         "description": "Utilities for controlling how flex items shrink.",
         "table": [
           {
@@ -3291,7 +3291,7 @@
       },
       {
         "title": "Order",
-        "url": "https://v3.tailwindcss.com/docs/order",
+        "url": "https://tailwindcss.com/docs/order",
         "description": "Utilities for controlling the order of flex and grid items.",
         "table": [
           {
@@ -3373,7 +3373,7 @@
       },
       {
         "title": "Grid Template Columns",
-        "url": "https://v3.tailwindcss.com/docs/grid-template-columns",
+        "url": "https://tailwindcss.com/docs/grid-template-columns",
         "description": "Utilities for specifying the columns in a grid layout.",
         "table": [
           {
@@ -3450,7 +3450,7 @@
       },
       {
         "title": "Grid Column Start / End",
-        "url": "https://v3.tailwindcss.com/docs/grid-column",
+        "url": "https://tailwindcss.com/docs/grid-column",
         "description": "Utilities for controlling how elements are sized and placed across grid columns.",
         "table": [
           {
@@ -3667,7 +3667,7 @@
       },
       {
         "title": "Grid Template Rows",
-        "url": "https://v3.tailwindcss.com/docs/grid-template-rows",
+        "url": "https://tailwindcss.com/docs/grid-template-rows",
         "description": "Utilities for specifying the rows in a grid layout.",
         "table": [
           {
@@ -3744,7 +3744,7 @@
       },
       {
         "title": "Grid Row Start / End",
-        "url": "https://v3.tailwindcss.com/docs/grid-row",
+        "url": "https://tailwindcss.com/docs/grid-row",
         "description": "Utilities for controlling how elements are sized and placed across grid rows.",
         "table": [
           {
@@ -3961,7 +3961,7 @@
       },
       {
         "title": "Grid Auto Flow",
-        "url": "https://v3.tailwindcss.com/docs/grid-auto-flow",
+        "url": "https://tailwindcss.com/docs/grid-auto-flow",
         "description": "Utilities for controlling how elements in a grid are auto-placed.",
         "table": [
           {
@@ -3993,7 +3993,7 @@
       },
       {
         "title": "Grid Auto Columns",
-        "url": "https://v3.tailwindcss.com/docs/grid-auto-columns",
+        "url": "https://tailwindcss.com/docs/grid-auto-columns",
         "description": "Utilities for controlling the size of implicitly-created grid columns.",
         "table": [
           {
@@ -4020,7 +4020,7 @@
       },
       {
         "title": "Grid Auto Rows",
-        "url": "https://v3.tailwindcss.com/docs/grid-auto-rows",
+        "url": "https://tailwindcss.com/docs/grid-auto-rows",
         "description": "Utilities for controlling the size of implicitly-created grid rows.",
         "table": [
           {
@@ -4047,7 +4047,7 @@
       },
       {
         "title": "Gap",
-        "url": "https://v3.tailwindcss.com/docs/gap",
+        "url": "https://tailwindcss.com/docs/gap",
         "description": "Utilities for controlling gutters between grid and flexbox items.",
         "table": [
           {
@@ -4579,7 +4579,7 @@
       },
       {
         "title": "Justify Content",
-        "url": "https://v3.tailwindcss.com/docs/justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content",
         "description": "Utilities for controlling how flex and grid items are positioned along a container's main axis.",
         "table": [
           {
@@ -4626,7 +4626,7 @@
       },
       {
         "title": "Justify Items",
-        "url": "https://v3.tailwindcss.com/docs/justify-items",
+        "url": "https://tailwindcss.com/docs/justify-items",
         "description": "Utilities for controlling how grid items are aligned along their inline axis.",
         "table": [
           {
@@ -4653,7 +4653,7 @@
       },
       {
         "title": "Justify Self",
-        "url": "https://v3.tailwindcss.com/docs/justify-self",
+        "url": "https://tailwindcss.com/docs/justify-self",
         "description": "Utilities for controlling how an individual grid item is aligned along its inline axis.",
         "table": [
           {
@@ -4685,7 +4685,7 @@
       },
       {
         "title": "Align Content",
-        "url": "https://v3.tailwindcss.com/docs/align-content",
+        "url": "https://tailwindcss.com/docs/align-content",
         "description": "Utilities for controlling how rows are positioned in multi-row flex and grid containers.",
         "table": [
           {
@@ -4737,7 +4737,7 @@
       },
       {
         "title": "Align Items",
-        "url": "https://v3.tailwindcss.com/docs/align-items",
+        "url": "https://tailwindcss.com/docs/align-items",
         "description": "Utilities for controlling how flex and grid items are positioned along a container's cross axis.",
         "table": [
           {
@@ -4769,7 +4769,7 @@
       },
       {
         "title": "Align Self",
-        "url": "https://v3.tailwindcss.com/docs/align-self",
+        "url": "https://tailwindcss.com/docs/align-self",
         "description": "Utilities for controlling how an individual flex or grid item is positioned along its container's cross axis.",
         "table": [
           {
@@ -4806,7 +4806,7 @@
       },
       {
         "title": "Place Content",
-        "url": "https://v3.tailwindcss.com/docs/place-content",
+        "url": "https://tailwindcss.com/docs/place-content",
         "description": "Utilities for controlling how content is justified and aligned at the same time.",
         "table": [
           {
@@ -4853,7 +4853,7 @@
       },
       {
         "title": "Place Items",
-        "url": "https://v3.tailwindcss.com/docs/place-items",
+        "url": "https://tailwindcss.com/docs/place-items",
         "description": "Utilities for controlling how items are justified and aligned at the same time.",
         "table": [
           {
@@ -4885,7 +4885,7 @@
       },
       {
         "title": "Place Self",
-        "url": "https://v3.tailwindcss.com/docs/place-self",
+        "url": "https://tailwindcss.com/docs/place-self",
         "description": "Utilities for controlling how an individual item is justified and aligned at the same time.",
         "table": [
           {
@@ -4922,7 +4922,7 @@
     "children": [
       {
         "title": "Padding",
-        "url": "https://v3.tailwindcss.com/docs/padding",
+        "url": "https://tailwindcss.com/docs/padding",
         "description": "Utilities for controlling an element's padding.",
         "table": [
           {
@@ -6504,7 +6504,7 @@
       },
       {
         "title": "Margin",
-        "url": "https://v3.tailwindcss.com/docs/margin",
+        "url": "https://tailwindcss.com/docs/margin",
         "description": "Utilities for controlling an element's margin.",
         "table": [
           {
@@ -8131,7 +8131,7 @@
       },
       {
         "title": "Space Between",
-        "url": "https://v3.tailwindcss.com/docs/space",
+        "url": "https://tailwindcss.com/docs/space",
         "description": "Utilities for controlling the space between child elements.",
         "table": [
           {
@@ -8503,7 +8503,7 @@
     "children": [
       {
         "title": "Width",
-        "url": "https://v3.tailwindcss.com/docs/width",
+        "url": "https://tailwindcss.com/docs/width",
         "description": "Utilities for setting the width of an element.",
         "table": [
           {
@@ -8860,7 +8860,7 @@
       },
       {
         "title": "Min-Width",
-        "url": "https://v3.tailwindcss.com/docs/min-width",
+        "url": "https://tailwindcss.com/docs/min-width",
         "description": "Utilities for setting the minimum width of an element.",
         "table": [
           {
@@ -9062,7 +9062,7 @@
       },
       {
         "title": "Max-Width",
-        "url": "https://v3.tailwindcss.com/docs/max-width",
+        "url": "https://tailwindcss.com/docs/max-width",
         "description": "Utilities for setting the maximum width of an element.",
         "table": [
           {
@@ -9354,7 +9354,7 @@
       },
       {
         "title": "Height",
-        "url": "https://v3.tailwindcss.com/docs/height",
+        "url": "https://tailwindcss.com/docs/height",
         "description": "Utilities for setting the height of an element.",
         "table": [
           {
@@ -9656,7 +9656,7 @@
       },
       {
         "title": "Min-Height",
-        "url": "https://v3.tailwindcss.com/docs/min-height",
+        "url": "https://tailwindcss.com/docs/min-height",
         "description": "Utilities for setting the minimum height of an element.",
         "table": [
           {
@@ -9878,7 +9878,7 @@
       },
       {
         "title": "Max-Height",
-        "url": "https://v3.tailwindcss.com/docs/max-height",
+        "url": "https://tailwindcss.com/docs/max-height",
         "description": "Utilities for setting the maximum height of an element.",
         "table": [
           {
@@ -10105,7 +10105,7 @@
       },
       {
         "title": "Size",
-        "url": "https://v3.tailwindcss.com/docs/size",
+        "url": "https://tailwindcss.com/docs/size",
         "description": "Utilities for setting the width and height of an element at the same time.",
         "table": [
           {
@@ -10447,7 +10447,7 @@
     "children": [
       {
         "title": "Font Family",
-        "url": "https://v3.tailwindcss.com/docs/font-family",
+        "url": "https://tailwindcss.com/docs/font-family",
         "description": "Utilities for controlling the font family of an element.",
         "table": [
           {
@@ -10469,7 +10469,7 @@
       },
       {
         "title": "Font Size",
-        "url": "https://v3.tailwindcss.com/docs/font-size",
+        "url": "https://tailwindcss.com/docs/font-size",
         "description": "Utilities for controlling the font size of an element.",
         "table": [
           {
@@ -10541,7 +10541,7 @@
       },
       {
         "title": "Font Smoothing",
-        "url": "https://v3.tailwindcss.com/docs/font-smoothing",
+        "url": "https://tailwindcss.com/docs/font-smoothing",
         "description": "Utilities for controlling the font smoothing of an element.",
         "table": [
           {
@@ -10558,7 +10558,7 @@
       },
       {
         "title": "Font Style",
-        "url": "https://v3.tailwindcss.com/docs/font-style",
+        "url": "https://tailwindcss.com/docs/font-style",
         "description": "Utilities for controlling the style of text.",
         "table": [
           {
@@ -10575,7 +10575,7 @@
       },
       {
         "title": "Font Weight",
-        "url": "https://v3.tailwindcss.com/docs/font-weight",
+        "url": "https://tailwindcss.com/docs/font-weight",
         "description": "Utilities for controlling the font weight of an element.",
         "table": [
           {
@@ -10627,7 +10627,7 @@
       },
       {
         "title": "Font Variant Numeric",
-        "url": "https://v3.tailwindcss.com/docs/font-variant-numeric",
+        "url": "https://tailwindcss.com/docs/font-variant-numeric",
         "description": "Utilities for controlling the variant of numbers.",
         "table": [
           {
@@ -10679,7 +10679,7 @@
       },
       {
         "title": "Letter Spacing",
-        "url": "https://v3.tailwindcss.com/docs/letter-spacing",
+        "url": "https://tailwindcss.com/docs/letter-spacing",
         "description": "Utilities for controlling the tracking (letter spacing) of an element.",
         "table": [
           {
@@ -10716,7 +10716,7 @@
       },
       {
         "title": "Line Clamp",
-        "url": "https://v3.tailwindcss.com/docs/line-clamp",
+        "url": "https://tailwindcss.com/docs/line-clamp",
         "description": "Utilities for clamping text to a specific number of lines.",
         "table": [
           {
@@ -10758,7 +10758,7 @@
       },
       {
         "title": "Line Height",
-        "url": "https://v3.tailwindcss.com/docs/line-height",
+        "url": "https://tailwindcss.com/docs/line-height",
         "description": "Utilities for controlling the leading (line height) of an element.",
         "table": [
           {
@@ -10835,7 +10835,7 @@
       },
       {
         "title": "List Style Image",
-        "url": "https://v3.tailwindcss.com/docs/list-style-image",
+        "url": "https://tailwindcss.com/docs/list-style-image",
         "description": "Utilities for controlling the marker images for list items.",
         "table": [
           {
@@ -10847,7 +10847,7 @@
       },
       {
         "title": "List Style Position",
-        "url": "https://v3.tailwindcss.com/docs/list-style-position",
+        "url": "https://tailwindcss.com/docs/list-style-position",
         "description": "Utilities for controlling the position of bullets/numbers in lists.",
         "table": [
           {
@@ -10864,7 +10864,7 @@
       },
       {
         "title": "List Style Type",
-        "url": "https://v3.tailwindcss.com/docs/list-style-type",
+        "url": "https://tailwindcss.com/docs/list-style-type",
         "description": "Utilities for controlling the bullet/number style of a list.",
         "table": [
           {
@@ -10886,7 +10886,7 @@
       },
       {
         "title": "Text Align",
-        "url": "https://v3.tailwindcss.com/docs/text-align",
+        "url": "https://tailwindcss.com/docs/text-align",
         "description": "Utilities for controlling the alignment of text.",
         "table": [
           {
@@ -10923,7 +10923,7 @@
       },
       {
         "title": "Text Color",
-        "url": "https://v3.tailwindcss.com/docs/text-color",
+        "url": "https://tailwindcss.com/docs/text-color",
         "description": "Utilities for controlling the text color of an element.",
         "table": [
           {
@@ -12165,7 +12165,7 @@
       },
       {
         "title": "Text Decoration",
-        "url": "https://v3.tailwindcss.com/docs/text-decoration",
+        "url": "https://tailwindcss.com/docs/text-decoration",
         "description": "Utilities for controlling the decoration of text.",
         "table": [
           {
@@ -12192,7 +12192,7 @@
       },
       {
         "title": "Text Decoration Color",
-        "url": "https://v3.tailwindcss.com/docs/text-decoration-color",
+        "url": "https://tailwindcss.com/docs/text-decoration-color",
         "description": "Utilities for controlling the color of text decorations.",
         "table": [
           {
@@ -13434,7 +13434,7 @@
       },
       {
         "title": "Text Decoration Style",
-        "url": "https://v3.tailwindcss.com/docs/text-decoration-style",
+        "url": "https://tailwindcss.com/docs/text-decoration-style",
         "description": "Utilities for controlling the style of text decorations.",
         "table": [
           {
@@ -13466,7 +13466,7 @@
       },
       {
         "title": "Text Decoration Thickness",
-        "url": "https://v3.tailwindcss.com/docs/text-decoration-thickness",
+        "url": "https://tailwindcss.com/docs/text-decoration-thickness",
         "description": "Utilities for controlling the thickness of text decorations.",
         "table": [
           {
@@ -13508,7 +13508,7 @@
       },
       {
         "title": "Text Underline Offset",
-        "url": "https://v3.tailwindcss.com/docs/text-underline-offset",
+        "url": "https://tailwindcss.com/docs/text-underline-offset",
         "description": "Utilities for controlling the offset of a text underline.",
         "table": [
           {
@@ -13545,7 +13545,7 @@
       },
       {
         "title": "Text Transform",
-        "url": "https://v3.tailwindcss.com/docs/text-transform",
+        "url": "https://tailwindcss.com/docs/text-transform",
         "description": "Utilities for controlling the transformation of text.",
         "table": [
           {
@@ -13572,7 +13572,7 @@
       },
       {
         "title": "Text Overflow",
-        "url": "https://v3.tailwindcss.com/docs/text-overflow",
+        "url": "https://tailwindcss.com/docs/text-overflow",
         "description": "Utilities for controlling text overflow in an element.",
         "table": [
           {
@@ -13594,7 +13594,7 @@
       },
       {
         "title": "Text Wrap",
-        "url": "https://v3.tailwindcss.com/docs/text-wrap",
+        "url": "https://tailwindcss.com/docs/text-wrap",
         "description": "Utilities for controlling how text wraps within an element.",
         "table": [
           {
@@ -13621,7 +13621,7 @@
       },
       {
         "title": "Text Indent",
-        "url": "https://v3.tailwindcss.com/docs/text-indent",
+        "url": "https://tailwindcss.com/docs/text-indent",
         "description": "Utilities for controlling the amount of empty space shown before text in a block.",
         "table": [
           {
@@ -13803,7 +13803,7 @@
       },
       {
         "title": "Vertical Align",
-        "url": "https://v3.tailwindcss.com/docs/vertical-align",
+        "url": "https://tailwindcss.com/docs/vertical-align",
         "description": "Utilities for controlling the vertical alignment of an inline or table-cell box.",
         "table": [
           {
@@ -13850,7 +13850,7 @@
       },
       {
         "title": "Whitespace",
-        "url": "https://v3.tailwindcss.com/docs/whitespace",
+        "url": "https://tailwindcss.com/docs/whitespace",
         "description": "Utilities for controlling an element's white-space property.",
         "table": [
           {
@@ -13887,7 +13887,7 @@
       },
       {
         "title": "Word Break",
-        "url": "https://v3.tailwindcss.com/docs/word-break",
+        "url": "https://tailwindcss.com/docs/word-break",
         "description": "Utilities for controlling word breaks in an element.",
         "table": [
           {
@@ -13914,7 +13914,7 @@
       },
       {
         "title": "Hyphens",
-        "url": "https://v3.tailwindcss.com/docs/hyphens",
+        "url": "https://tailwindcss.com/docs/hyphens",
         "description": "Utilities for controlling how words should be hyphenated.",
         "table": [
           {
@@ -13936,7 +13936,7 @@
       },
       {
         "title": "Content",
-        "url": "https://v3.tailwindcss.com/docs/content",
+        "url": "https://tailwindcss.com/docs/content",
         "description": "Utilities for controlling the content of the before and after pseudo-elements.",
         "table": [
           {
@@ -13953,7 +13953,7 @@
     "children": [
       {
         "title": "Background Attachment",
-        "url": "https://v3.tailwindcss.com/docs/background-attachment",
+        "url": "https://tailwindcss.com/docs/background-attachment",
         "description": "Utilities for controlling how a background image behaves when scrolling.",
         "table": [
           {
@@ -13975,7 +13975,7 @@
       },
       {
         "title": "Background Clip",
-        "url": "https://v3.tailwindcss.com/docs/background-clip",
+        "url": "https://tailwindcss.com/docs/background-clip",
         "description": "Utilities for controlling the bounding box of an element's background.",
         "table": [
           {
@@ -14002,7 +14002,7 @@
       },
       {
         "title": "Background Color",
-        "url": "https://v3.tailwindcss.com/docs/background-color",
+        "url": "https://tailwindcss.com/docs/background-color",
         "description": "Utilities for controlling an element's background color.",
         "table": [
           {
@@ -15244,7 +15244,7 @@
       },
       {
         "title": "Background Origin",
-        "url": "https://v3.tailwindcss.com/docs/background-origin",
+        "url": "https://tailwindcss.com/docs/background-origin",
         "description": "Utilities for controlling how an element's background is positioned relative to borders, padding, and content.",
         "table": [
           {
@@ -15266,7 +15266,7 @@
       },
       {
         "title": "Background Position",
-        "url": "https://v3.tailwindcss.com/docs/background-position",
+        "url": "https://tailwindcss.com/docs/background-position",
         "description": "Utilities for controlling the position of an element's background image.",
         "table": [
           {
@@ -15318,7 +15318,7 @@
       },
       {
         "title": "Background Repeat",
-        "url": "https://v3.tailwindcss.com/docs/background-repeat",
+        "url": "https://tailwindcss.com/docs/background-repeat",
         "description": "Utilities for controlling the repetition of an element's background image.",
         "table": [
           {
@@ -15355,7 +15355,7 @@
       },
       {
         "title": "Background Size",
-        "url": "https://v3.tailwindcss.com/docs/background-size",
+        "url": "https://tailwindcss.com/docs/background-size",
         "description": "Utilities for controlling the background size of an element's background image.",
         "table": [
           {
@@ -15377,7 +15377,7 @@
       },
       {
         "title": "Background Image",
-        "url": "https://v3.tailwindcss.com/docs/background-image",
+        "url": "https://tailwindcss.com/docs/background-image",
         "description": "Utilities for controlling an element's background image.",
         "table": [
           {
@@ -15429,7 +15429,7 @@
       },
       {
         "title": "Gradient Color Stops",
-        "url": "https://v3.tailwindcss.com/docs/gradient-color-stops",
+        "url": "https://tailwindcss.com/docs/gradient-color-stops",
         "description": "Utilities for controlling the color stops in background gradients.",
         "table": [
           {
@@ -19461,7 +19461,7 @@
     "children": [
       {
         "title": "Border Radius",
-        "url": "https://v3.tailwindcss.com/docs/border-radius",
+        "url": "https://tailwindcss.com/docs/border-radius",
         "description": "Utilities for controlling the border radius of an element.",
         "table": [
           {
@@ -20173,7 +20173,7 @@
       },
       {
         "title": "Border Width",
-        "url": "https://v3.tailwindcss.com/docs/border-width",
+        "url": "https://tailwindcss.com/docs/border-width",
         "description": "Utilities for controlling the width of an element's borders.",
         "table": [
           {
@@ -20405,7 +20405,7 @@
       },
       {
         "title": "Border Color",
-        "url": "https://v3.tailwindcss.com/docs/border-color",
+        "url": "https://tailwindcss.com/docs/border-color",
         "description": "Utilities for controlling the color of an element's borders.",
         "table": [
           {
@@ -31527,7 +31527,7 @@
       },
       {
         "title": "Border Style",
-        "url": "https://v3.tailwindcss.com/docs/border-style",
+        "url": "https://tailwindcss.com/docs/border-style",
         "description": "Utilities for controlling the style of an element's borders.",
         "table": [
           {
@@ -31564,7 +31564,7 @@
       },
       {
         "title": "Divide Width",
-        "url": "https://v3.tailwindcss.com/docs/divide-width",
+        "url": "https://tailwindcss.com/docs/divide-width",
         "description": "Utilities for controlling the border width between elements.",
         "table": [
           {
@@ -31631,7 +31631,7 @@
       },
       {
         "title": "Divide Color",
-        "url": "https://v3.tailwindcss.com/docs/divide-color",
+        "url": "https://tailwindcss.com/docs/divide-color",
         "description": "Utilities for controlling the border color between elements.",
         "table": [
           {
@@ -32873,7 +32873,7 @@
       },
       {
         "title": "Divide Style",
-        "url": "https://v3.tailwindcss.com/docs/divide-style",
+        "url": "https://tailwindcss.com/docs/divide-style",
         "description": "Utilities for controlling the border style between elements.",
         "table": [
           {
@@ -32905,7 +32905,7 @@
       },
       {
         "title": "Outline Width",
-        "url": "https://v3.tailwindcss.com/docs/outline-width",
+        "url": "https://tailwindcss.com/docs/outline-width",
         "description": "Utilities for controlling the width of an element's outline.",
         "table": [
           {
@@ -32937,7 +32937,7 @@
       },
       {
         "title": "Outline Color",
-        "url": "https://v3.tailwindcss.com/docs/outline-color",
+        "url": "https://tailwindcss.com/docs/outline-color",
         "description": "Utilities for controlling the color of an element's outline.",
         "table": [
           {
@@ -34179,7 +34179,7 @@
       },
       {
         "title": "Outline Style",
-        "url": "https://v3.tailwindcss.com/docs/outline-style",
+        "url": "https://tailwindcss.com/docs/outline-style",
         "description": "Utilities for controlling the style of an element's outline.",
         "table": [
           {
@@ -34211,7 +34211,7 @@
       },
       {
         "title": "Outline Offset",
-        "url": "https://v3.tailwindcss.com/docs/outline-offset",
+        "url": "https://tailwindcss.com/docs/outline-offset",
         "description": "Utilities for controlling the offset of an element's outline.",
         "table": [
           {
@@ -34243,7 +34243,7 @@
       },
       {
         "title": "Ring Width",
-        "url": "https://v3.tailwindcss.com/docs/ring-width",
+        "url": "https://tailwindcss.com/docs/ring-width",
         "description": "Utilities for creating outline rings with box-shadows.",
         "table": [
           {
@@ -34285,7 +34285,7 @@
       },
       {
         "title": "Ring Color",
-        "url": "https://v3.tailwindcss.com/docs/ring-color",
+        "url": "https://tailwindcss.com/docs/ring-color",
         "description": "Utilities for setting the color of outline rings.",
         "table": [
           {
@@ -35527,7 +35527,7 @@
       },
       {
         "title": "Ring Offset Width",
-        "url": "https://v3.tailwindcss.com/docs/ring-offset-width",
+        "url": "https://tailwindcss.com/docs/ring-offset-width",
         "description": "Utilities for simulating an offset when adding outline rings.",
         "table": [
           {
@@ -35559,7 +35559,7 @@
       },
       {
         "title": "Ring Offset Color",
-        "url": "https://v3.tailwindcss.com/docs/ring-offset-color",
+        "url": "https://tailwindcss.com/docs/ring-offset-color",
         "description": "Utilities for setting the color of outline ring offsets.",
         "table": [
           {
@@ -36806,7 +36806,7 @@
     "children": [
       {
         "title": "Box Shadow",
-        "url": "https://v3.tailwindcss.com/docs/box-shadow",
+        "url": "https://tailwindcss.com/docs/box-shadow",
         "description": "Utilities for controlling the box shadow of an element.",
         "table": [
           {
@@ -36853,7 +36853,7 @@
       },
       {
         "title": "Box Shadow Color",
-        "url": "https://v3.tailwindcss.com/docs/box-shadow-color",
+        "url": "https://tailwindcss.com/docs/box-shadow-color",
         "description": "Utilities for controlling the color of a box shadow.",
         "table": [
           {
@@ -38095,7 +38095,7 @@
       },
       {
         "title": "Opacity",
-        "url": "https://v3.tailwindcss.com/docs/opacity",
+        "url": "https://tailwindcss.com/docs/opacity",
         "description": "Utilities for controlling the opacity of an element.",
         "table": [
           {
@@ -38207,7 +38207,7 @@
       },
       {
         "title": "Mix Blend Mode",
-        "url": "https://v3.tailwindcss.com/docs/mix-blend-mode",
+        "url": "https://tailwindcss.com/docs/mix-blend-mode",
         "description": "Utilities for controlling how an element should blend with the background.",
         "table": [
           {
@@ -38304,7 +38304,7 @@
       },
       {
         "title": "Background Blend Mode",
-        "url": "https://v3.tailwindcss.com/docs/background-blend-mode",
+        "url": "https://tailwindcss.com/docs/background-blend-mode",
         "description": "Utilities for controlling how an element's background image should blend with its background color.",
         "table": [
           {
@@ -38396,7 +38396,7 @@
     "children": [
       {
         "title": "Blur",
-        "url": "https://v3.tailwindcss.com/docs/blur",
+        "url": "https://tailwindcss.com/docs/blur",
         "description": "Utilities for applying blur filters to an element.",
         "table": [
           {
@@ -38443,7 +38443,7 @@
       },
       {
         "title": "Brightness",
-        "url": "https://v3.tailwindcss.com/docs/brightness",
+        "url": "https://tailwindcss.com/docs/brightness",
         "description": "Utilities for applying brightness filters to an element.",
         "table": [
           {
@@ -38505,7 +38505,7 @@
       },
       {
         "title": "Contrast",
-        "url": "https://v3.tailwindcss.com/docs/contrast",
+        "url": "https://tailwindcss.com/docs/contrast",
         "description": "Utilities for applying contrast filters to an element.",
         "table": [
           {
@@ -38547,7 +38547,7 @@
       },
       {
         "title": "Drop Shadow",
-        "url": "https://v3.tailwindcss.com/docs/drop-shadow",
+        "url": "https://tailwindcss.com/docs/drop-shadow",
         "description": "Utilities for applying drop-shadow filters to an element.",
         "table": [
           {
@@ -38589,7 +38589,7 @@
       },
       {
         "title": "Grayscale",
-        "url": "https://v3.tailwindcss.com/docs/grayscale",
+        "url": "https://tailwindcss.com/docs/grayscale",
         "description": "Utilities for applying grayscale filters to an element.",
         "table": [
           {
@@ -38606,7 +38606,7 @@
       },
       {
         "title": "Hue Rotate",
-        "url": "https://v3.tailwindcss.com/docs/hue-rotate",
+        "url": "https://tailwindcss.com/docs/hue-rotate",
         "description": "Utilities for applying hue-rotate filters to an element.",
         "table": [
           {
@@ -38643,7 +38643,7 @@
       },
       {
         "title": "Invert",
-        "url": "https://v3.tailwindcss.com/docs/invert",
+        "url": "https://tailwindcss.com/docs/invert",
         "description": "Utilities for applying invert filters to an element.",
         "table": [
           {
@@ -38660,7 +38660,7 @@
       },
       {
         "title": "Saturate",
-        "url": "https://v3.tailwindcss.com/docs/saturate",
+        "url": "https://tailwindcss.com/docs/saturate",
         "description": "Utilities for applying saturation filters to an element.",
         "table": [
           {
@@ -38692,7 +38692,7 @@
       },
       {
         "title": "Sepia",
-        "url": "https://v3.tailwindcss.com/docs/sepia",
+        "url": "https://tailwindcss.com/docs/sepia",
         "description": "Utilities for applying sepia filters to an element.",
         "table": [
           {
@@ -38709,7 +38709,7 @@
       },
       {
         "title": "Backdrop Blur",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-blur",
+        "url": "https://tailwindcss.com/docs/backdrop-blur",
         "description": "Utilities for applying backdrop blur filters to an element.",
         "table": [
           {
@@ -38756,7 +38756,7 @@
       },
       {
         "title": "Backdrop Brightness",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-brightness",
+        "url": "https://tailwindcss.com/docs/backdrop-brightness",
         "description": "Utilities for applying backdrop brightness filters to an element.",
         "table": [
           {
@@ -38818,7 +38818,7 @@
       },
       {
         "title": "Backdrop Contrast",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-contrast",
+        "url": "https://tailwindcss.com/docs/backdrop-contrast",
         "description": "Utilities for applying backdrop contrast filters to an element.",
         "table": [
           {
@@ -38860,7 +38860,7 @@
       },
       {
         "title": "Backdrop Grayscale",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-grayscale",
+        "url": "https://tailwindcss.com/docs/backdrop-grayscale",
         "description": "Utilities for applying backdrop grayscale filters to an element.",
         "table": [
           {
@@ -38877,7 +38877,7 @@
       },
       {
         "title": "Backdrop Hue Rotate",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-hue-rotate",
+        "url": "https://tailwindcss.com/docs/backdrop-hue-rotate",
         "description": "Utilities for applying backdrop hue-rotate filters to an element.",
         "table": [
           {
@@ -38914,7 +38914,7 @@
       },
       {
         "title": "Backdrop Invert",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-invert",
+        "url": "https://tailwindcss.com/docs/backdrop-invert",
         "description": "Utilities for applying backdrop invert filters to an element.",
         "table": [
           {
@@ -38931,7 +38931,7 @@
       },
       {
         "title": "Backdrop Opacity",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-opacity",
+        "url": "https://tailwindcss.com/docs/backdrop-opacity",
         "description": "Utilities for applying backdrop opacity filters to an element.",
         "table": [
           {
@@ -39043,7 +39043,7 @@
       },
       {
         "title": "Backdrop Saturate",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-saturate",
+        "url": "https://tailwindcss.com/docs/backdrop-saturate",
         "description": "Utilities for applying backdrop saturation filters to an element.",
         "table": [
           {
@@ -39075,7 +39075,7 @@
       },
       {
         "title": "Backdrop Sepia",
-        "url": "https://v3.tailwindcss.com/docs/backdrop-sepia",
+        "url": "https://tailwindcss.com/docs/backdrop-sepia",
         "description": "Utilities for applying backdrop sepia filters to an element.",
         "table": [
           {
@@ -39097,7 +39097,7 @@
     "children": [
       {
         "title": "Border Collapse",
-        "url": "https://v3.tailwindcss.com/docs/border-collapse",
+        "url": "https://tailwindcss.com/docs/border-collapse",
         "description": "Utilities for controlling whether table borders should collapse or be separated.",
         "table": [
           {
@@ -39109,12 +39109,42 @@
             "class": "border-separate",
             "properties": "border-collapse: separate;",
             "value": ""
+          },
+          {
+            "class": "Indiana",
+            "properties": "Indianapolis",
+            "value": ""
+          },
+          {
+            "class": "Ohio",
+            "properties": "Columbus",
+            "value": ""
+          },
+          {
+            "class": "Michigan",
+            "properties": "Detroit",
+            "value": ""
+          },
+          {
+            "class": "Indiana",
+            "properties": "Indianapolis",
+            "value": ""
+          },
+          {
+            "class": "Ohio",
+            "properties": "Columbus",
+            "value": ""
+          },
+          {
+            "class": "Michigan",
+            "properties": "Detroit",
+            "value": ""
           }
         ]
       },
       {
         "title": "Border Spacing",
-        "url": "https://v3.tailwindcss.com/docs/border-spacing",
+        "url": "https://tailwindcss.com/docs/border-spacing",
         "description": "Utilities for controlling the spacing between table borders.",
         "table": [
           {
@@ -39641,12 +39671,27 @@
             "class": "border-spacing-y-96",
             "properties": "border-spacing: var(--tw-border-spacing-x) 24rem;",
             "value": ""
+          },
+          {
+            "class": "Indiana",
+            "properties": "Indianapolis",
+            "value": ""
+          },
+          {
+            "class": "Ohio",
+            "properties": "Columbus",
+            "value": ""
+          },
+          {
+            "class": "Michigan",
+            "properties": "Detroit",
+            "value": ""
           }
         ]
       },
       {
         "title": "Table Layout",
-        "url": "https://v3.tailwindcss.com/docs/table-layout",
+        "url": "https://tailwindcss.com/docs/table-layout",
         "description": "Utilities for controlling the table layout algorithm.",
         "table": [
           {
@@ -39658,12 +39703,42 @@
             "class": "table-fixed",
             "properties": "table-layout: fixed;",
             "value": ""
+          },
+          {
+            "class": "The Sliding Mr. Bones (Next Stop, Pottersville)",
+            "properties": "Malcolm Lockyer",
+            "value": ""
+          },
+          {
+            "class": "Witchy Woman",
+            "properties": "The Eagles",
+            "value": ""
+          },
+          {
+            "class": "Shining Star",
+            "properties": "Earth, Wind, and Fire",
+            "value": ""
+          },
+          {
+            "class": "The Sliding Mr. Bones (Next Stop, Pottersville)",
+            "properties": "Malcolm Lockyer",
+            "value": ""
+          },
+          {
+            "class": "Witchy Woman",
+            "properties": "The Eagles",
+            "value": ""
+          },
+          {
+            "class": "Shining Star",
+            "properties": "Earth, Wind, and Fire",
+            "value": ""
           }
         ]
       },
       {
         "title": "Caption Side",
-        "url": "https://v3.tailwindcss.com/docs/caption-side",
+        "url": "https://tailwindcss.com/docs/caption-side",
         "description": "Utilities for controlling the alignment of a caption element inside of a table.",
         "table": [
           {
@@ -39675,6 +39750,36 @@
             "class": "caption-bottom",
             "properties": "caption-side: bottom;",
             "value": ""
+          },
+          {
+            "class": "\"Stone Cold\" Steve Austin",
+            "properties": "Stone Cold Stunner, Lou Thesz Press",
+            "value": ""
+          },
+          {
+            "class": "Bret \"The Hitman\" Hart",
+            "properties": "The Sharpshooter",
+            "value": ""
+          },
+          {
+            "class": "Razor Ramon",
+            "properties": "Razor's Edge, Fallaway Slam",
+            "value": ""
+          },
+          {
+            "class": "\"Stone Cold\" Steve Austin",
+            "properties": "Stone Cold Stunner, Lou Thesz Press",
+            "value": ""
+          },
+          {
+            "class": "Bret \"The Hitman\" Hart",
+            "properties": "The Sharpshooter",
+            "value": ""
+          },
+          {
+            "class": "Razor Ramon",
+            "properties": "Razor's Edge, Fallaway Slam",
+            "value": ""
           }
         ]
       }
@@ -39685,7 +39790,7 @@
     "children": [
       {
         "title": "Transition Property",
-        "url": "https://v3.tailwindcss.com/docs/transition-property",
+        "url": "https://tailwindcss.com/docs/transition-property",
         "description": "Utilities for controlling which CSS properties transition.",
         "table": [
           {
@@ -39727,7 +39832,7 @@
       },
       {
         "title": "Transition Duration",
-        "url": "https://v3.tailwindcss.com/docs/transition-duration",
+        "url": "https://tailwindcss.com/docs/transition-duration",
         "description": "Utilities for controlling the duration of CSS transitions.",
         "table": [
           {
@@ -39779,7 +39884,7 @@
       },
       {
         "title": "Transition Timing Function",
-        "url": "https://v3.tailwindcss.com/docs/transition-timing-function",
+        "url": "https://tailwindcss.com/docs/transition-timing-function",
         "description": "Utilities for controlling the easing of CSS transitions.",
         "table": [
           {
@@ -39806,7 +39911,7 @@
       },
       {
         "title": "Transition Delay",
-        "url": "https://v3.tailwindcss.com/docs/transition-delay",
+        "url": "https://tailwindcss.com/docs/transition-delay",
         "description": "Utilities for controlling the delay of CSS transitions.",
         "table": [
           {
@@ -39858,7 +39963,7 @@
       },
       {
         "title": "Animation",
-        "url": "https://v3.tailwindcss.com/docs/animation",
+        "url": "https://tailwindcss.com/docs/animation",
         "description": "Utilities for animating elements with CSS animations.",
         "table": [
           {
@@ -39895,7 +40000,7 @@
     "children": [
       {
         "title": "Scale",
-        "url": "https://v3.tailwindcss.com/docs/scale",
+        "url": "https://tailwindcss.com/docs/scale",
         "description": "Utilities for scaling elements with transform.",
         "table": [
           {
@@ -40052,7 +40157,7 @@
       },
       {
         "title": "Rotate",
-        "url": "https://v3.tailwindcss.com/docs/rotate",
+        "url": "https://tailwindcss.com/docs/rotate",
         "description": "Utilities for rotating elements with transform.",
         "table": [
           {
@@ -40104,7 +40209,7 @@
       },
       {
         "title": "Translate",
-        "url": "https://v3.tailwindcss.com/docs/translate",
+        "url": "https://tailwindcss.com/docs/translate",
         "description": "Utilities for translating elements with transform.",
         "table": [
           {
@@ -40531,7 +40636,7 @@
       },
       {
         "title": "Skew",
-        "url": "https://v3.tailwindcss.com/docs/skew",
+        "url": "https://tailwindcss.com/docs/skew",
         "description": "Utilities for skewing elements with transform.",
         "table": [
           {
@@ -40598,7 +40703,7 @@
       },
       {
         "title": "Transform Origin",
-        "url": "https://v3.tailwindcss.com/docs/transform-origin",
+        "url": "https://tailwindcss.com/docs/transform-origin",
         "description": "Utilities for specifying the origin for an element's transformations.",
         "table": [
           {
@@ -40655,7 +40760,7 @@
     "children": [
       {
         "title": "Accent Color",
-        "url": "https://v3.tailwindcss.com/docs/accent-color",
+        "url": "https://tailwindcss.com/docs/accent-color",
         "description": "Utilities for controlling the accented color of a form control.",
         "table": [
           {
@@ -41902,7 +42007,7 @@
       },
       {
         "title": "Appearance",
-        "url": "https://v3.tailwindcss.com/docs/appearance",
+        "url": "https://tailwindcss.com/docs/appearance",
         "description": "Utilities for suppressing native form control styling.",
         "table": [
           {
@@ -41919,7 +42024,7 @@
       },
       {
         "title": "Cursor",
-        "url": "https://v3.tailwindcss.com/docs/cursor",
+        "url": "https://tailwindcss.com/docs/cursor",
         "description": "Utilities for controlling the cursor style when hovering over an element.",
         "table": [
           {
@@ -42106,7 +42211,7 @@
       },
       {
         "title": "Caret Color",
-        "url": "https://v3.tailwindcss.com/docs/caret-color",
+        "url": "https://tailwindcss.com/docs/caret-color",
         "description": "Utilities for controlling the color of the text input cursor.",
         "table": [
           {
@@ -43348,7 +43453,7 @@
       },
       {
         "title": "Pointer Events",
-        "url": "https://v3.tailwindcss.com/docs/pointer-events",
+        "url": "https://tailwindcss.com/docs/pointer-events",
         "description": "Utilities for controlling whether an element responds to pointer events.",
         "table": [
           {
@@ -43365,7 +43470,7 @@
       },
       {
         "title": "Resize",
-        "url": "https://v3.tailwindcss.com/docs/resize",
+        "url": "https://tailwindcss.com/docs/resize",
         "description": "Utilities for controlling how an element can be resized.",
         "table": [
           {
@@ -43392,7 +43497,7 @@
       },
       {
         "title": "Scroll Behavior",
-        "url": "https://v3.tailwindcss.com/docs/scroll-behavior",
+        "url": "https://tailwindcss.com/docs/scroll-behavior",
         "description": "Utilities for controlling the scroll behavior of an element.",
         "table": [
           {
@@ -43409,7 +43514,7 @@
       },
       {
         "title": "Scroll Margin",
-        "url": "https://v3.tailwindcss.com/docs/scroll-margin",
+        "url": "https://tailwindcss.com/docs/scroll-margin",
         "description": "Utilities for controlling the scroll offset around items in a snap container.",
         "table": [
           {
@@ -44991,7 +45096,7 @@
       },
       {
         "title": "Scroll Padding",
-        "url": "https://v3.tailwindcss.com/docs/scroll-padding",
+        "url": "https://tailwindcss.com/docs/scroll-padding",
         "description": "Utilities for controlling an element's scroll offset within a snap container.",
         "table": [
           {
@@ -46573,7 +46678,7 @@
       },
       {
         "title": "Scroll Snap Align",
-        "url": "https://v3.tailwindcss.com/docs/scroll-snap-align",
+        "url": "https://tailwindcss.com/docs/scroll-snap-align",
         "description": "Utilities for controlling the scroll snap alignment of an element.",
         "table": [
           {
@@ -46600,7 +46705,7 @@
       },
       {
         "title": "Scroll Snap Stop",
-        "url": "https://v3.tailwindcss.com/docs/scroll-snap-stop",
+        "url": "https://tailwindcss.com/docs/scroll-snap-stop",
         "description": "Utilities for controlling whether you can skip past possible snap positions.",
         "table": [
           {
@@ -46617,7 +46722,7 @@
       },
       {
         "title": "Scroll Snap Type",
-        "url": "https://v3.tailwindcss.com/docs/scroll-snap-type",
+        "url": "https://tailwindcss.com/docs/scroll-snap-type",
         "description": "Utilities for controlling how strictly snap points are enforced in a snap container.",
         "table": [
           {
@@ -46654,7 +46759,7 @@
       },
       {
         "title": "Touch Action",
-        "url": "https://v3.tailwindcss.com/docs/touch-action",
+        "url": "https://tailwindcss.com/docs/touch-action",
         "description": "Utilities for controlling how an element can be scrolled and zoomed on touchscreens.",
         "table": [
           {
@@ -46711,7 +46816,7 @@
       },
       {
         "title": "User Select",
-        "url": "https://v3.tailwindcss.com/docs/user-select",
+        "url": "https://tailwindcss.com/docs/user-select",
         "description": "Utilities for controlling whether the user can select text in an element.",
         "table": [
           {
@@ -46738,7 +46843,7 @@
       },
       {
         "title": "Will Change",
-        "url": "https://v3.tailwindcss.com/docs/will-change",
+        "url": "https://tailwindcss.com/docs/will-change",
         "description": "Utilities for optimizing upcoming animations of elements that are expected to change.",
         "table": [
           {
@@ -46770,7 +46875,7 @@
     "children": [
       {
         "title": "Fill",
-        "url": "https://v3.tailwindcss.com/docs/fill",
+        "url": "https://tailwindcss.com/docs/fill",
         "description": "Utilities for styling the fill of SVG elements.",
         "table": [
           {
@@ -48017,7 +48122,7 @@
       },
       {
         "title": "Stroke",
-        "url": "https://v3.tailwindcss.com/docs/stroke",
+        "url": "https://tailwindcss.com/docs/stroke",
         "description": "Utilities for styling the stroke of SVG elements.",
         "table": [
           {
@@ -49264,7 +49369,7 @@
       },
       {
         "title": "Stroke Width",
-        "url": "https://v3.tailwindcss.com/docs/stroke-width",
+        "url": "https://tailwindcss.com/docs/stroke-width",
         "description": "Utilities for styling the stroke width of SVG elements.",
         "table": [
           {
@@ -49291,7 +49396,7 @@
     "children": [
       {
         "title": "Screen Readers",
-        "url": "https://v3.tailwindcss.com/docs/screen-readers",
+        "url": "https://tailwindcss.com/docs/screen-readers",
         "description": "Utilities for improving accessibility with screen readers.",
         "table": [
           {
@@ -49308,7 +49413,7 @@
       },
       {
         "title": "Forced Color Adjust",
-        "url": "https://v3.tailwindcss.com/docs/forced-color-adjust",
+        "url": "https://tailwindcss.com/docs/forced-color-adjust",
         "description": "Utilities for opting in and out of forced colors.",
         "table": [
           {

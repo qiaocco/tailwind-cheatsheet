@@ -1,5 +1,9 @@
 <script lang="ts">
-    import classlist from "$lib/json/v3.4.17.json";
+    import { tw_versions } from "$lib/appStore";
+    import v4 from "$lib/json/v4.0.json";
+
+    let selected_v = $state(tw_versions[0]);
+    let jsondata = $state(v4);
     let query = $state("");
     let copied = $state("");
     let toastVisible = $state(false);
@@ -13,12 +17,11 @@
 
 
 <div class="">
-
-    <Header {query} />
+    <Header {query} bind:selected_v bind:jsondata />
 
     <main class="lg:ml-[12rem] p-4">
         <Masonry gap={20}>
-            {#each classlist as a}
+            {#each jsondata as a}
                 <section class="border border-black/20 bg-gray-100 dark:bg-gray-900 rounded-md break-inside-avoid">
                     <h2 class="font-bold p-2 px-4">{a.title}</h2>
                     {#each a.children as b}

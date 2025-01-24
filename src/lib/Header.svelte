@@ -3,7 +3,7 @@
     import SearchInput from "./SearchInput.svelte";
     import ThemeSwitch from "./ThemeSwitch.svelte";
 
-    let { query } = $props();
+    let { query, selected_v = $bindable(), jsondata = $bindable() } = $props();
 </script>
 
 <header
@@ -39,5 +39,5 @@
 
     <SearchInput {query} />
 
-    <Buttons />
+    <Buttons bind:selected_v bind:jsondata />
 </header>

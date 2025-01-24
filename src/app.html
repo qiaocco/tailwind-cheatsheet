@@ -8,6 +8,26 @@
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<script>
+			if (
+				localStorage.theme === 'dark' ||
+				(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.classList.add('dark');
+				darkMode = true;
+			} else {
+				document.documentElement.classList.remove('dark');
+				darkMode = false;
+			}
+
+			// const tw_version = localStorage.tw_verion || "4.0";
+			// const jsondata;
+			// (async () => {
+			// 	jsondata = await import(`../lib/json/v${tw_version}.json`);
+			// })
+
+
+		</script>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

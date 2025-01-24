@@ -13,7 +13,7 @@ const crawlTWDocs = async (docsUrl, filename) => {
 
         const $ = cheerio.load(html);
 
-        $('nav#nav h5').each((i, el) => {    // p for v0, h5 for the rest versions
+        $('nav h3').each((i, el) => {    // 'nav#nav p' for v0, 'nav#nav h5' for the rest versions, 'nav h3' for v4
             const sectionTitle = $(el).text().trim();
             const sectionItems = [];
 
@@ -51,7 +51,8 @@ const crawlTWDocs = async (docsUrl, filename) => {
                     const $ = cheerio.load(html);
 
                     // Get description
-                    const description = $('header#header p.mt-2').text().trim(); // v3
+                    const description = $('div.px-4 p[data-description="true"]').text().trim();
+                    // const description = $('header#header p.mt-2').text().trim(); // v3
                     // const description = $('div#content-wrapper p:first').text().trim();   // v2
                     // const description = $('div#content-wrapper div.text-xl').first().text().trim();   // v0
 
@@ -80,4 +81,4 @@ const crawlTWDocs = async (docsUrl, filename) => {
     }
 }
 
-crawlTWDocs('https://tailwindcss-v0.netlify.app/docs/what-is-tailwind/', 'v0.7.4');
+crawlTWDocs('https://tailwindcss.com/docs/installation/using-vite', 'v0.7.4');
