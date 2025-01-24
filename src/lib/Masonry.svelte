@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   let parent: HTMLDivElement;
   let { children, gap = 10 } = $props();
-  let numCols = $state(3)
+  let numCols = $state(4)
   let items = $state<Element[]>([])
 
   export const updateLayout = () => {
