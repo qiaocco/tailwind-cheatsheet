@@ -20,7 +20,7 @@
           {
             "class": "aspect-video",
             "properties": "aspect-ratio: var(--aspect-ratio-video);",
-            "value": "16 / 9"
+            "value": "16/9"
           },
           {
             "class": "aspect-auto",

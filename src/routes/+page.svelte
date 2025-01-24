@@ -17,10 +17,11 @@
 
 
 <div class="">
-    <Header {query} bind:selected_v bind:jsondata />
-
-    <main class="lg:ml-[12rem] p-4">
+    
+    <main class=" p-4">
+        
         <Masonry gap={20}>
+            <Header {query} bind:selected_v bind:jsondata />
             {#each jsondata as a}
                 <section class="border border-black/20 bg-gray-100 dark:bg-gray-900 rounded-md break-inside-avoid">
                     <h2 class="font-bold p-2 px-4">{a.title}</h2>

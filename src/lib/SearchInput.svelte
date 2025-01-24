@@ -40,7 +40,7 @@
     });
 </script>
 
-<div class="order-2 lg:order-3 w-full relative lg:my-8">
+<div class="w-full relative">
     <input
         bind:this={searchInput}
         onfocus={() => kbd.classList.replace("opacity-100", "opacity-0")}

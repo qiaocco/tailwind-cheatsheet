@@ -5,7 +5,7 @@
   let numCols = $state(3)
   let items = $state<Element[]>([])
 
-  const updateLayout = () => {
+  export const updateLayout = () => {
     const width = document.documentElement.offsetWidth;
 
     width < 640 ? numCols = 1 : width < 768 ? numCols = 2 : width < 1280 ? numCols = 3 : numCols = 4
