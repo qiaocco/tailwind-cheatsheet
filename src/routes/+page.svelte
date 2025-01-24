@@ -13,25 +13,19 @@
     import Toast from "$lib/Toast.svelte";
     import CssProperty from "$lib/CssProperty.svelte";
 </script>
-
-
-
-<div class="">
     
-    <main class=" p-4">
-        
-        <Masonry gap={20}>
-            <Header {query} bind:selected_v bind:jsondata />
-            {#each jsondata as a}
-                <section class="border border-black/20 bg-gray-100 dark:bg-gray-900 rounded-md break-inside-avoid">
-                    <h2 class="font-bold p-2 px-4">{a.title}</h2>
-                    {#each a.children as b}
-                        <CssProperty {b} bind:copied bind:toastVisible />
-                    {/each}
-                </section>
-            {/each}
-        </Masonry>
-    </main>
-</div>
+<main class="max-w-screen-2xl mx-auto p-4">
+    <Masonry gap={20}>
+        <Header {query} bind:selected_v bind:jsondata />
+        {#each jsondata as a}
+            <section class="border border-black/20 bg-gray-100 dark:bg-gray-900 rounded-md break-inside-avoid">
+                <h2 class="font-bold p-2 px-4">{a.title}</h2>
+                {#each a.children as b}
+                    <CssProperty {b} bind:copied bind:toastVisible />
+                {/each}
+            </section>
+        {/each}
+    </Masonry>
+</main>
 
 <Toast {copied} {toastVisible} />
