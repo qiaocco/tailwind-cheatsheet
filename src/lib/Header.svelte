@@ -24,7 +24,7 @@
 
 <header class="px-4">
     <div class="flex justify-between">
-        <h1 class="font-bold">
+        <div class="font-bold">
             <span class="text-sky-500 text-sm ">
                 Tailwind CSS
                 <select
@@ -39,7 +39,7 @@
             </span>
             <br />
             <span class="text-xl lg:text-3xl">Cheatsheet</span>
-        </h1>
+        </div>
         <div class="flex gap-2">
             <a
                 class=""

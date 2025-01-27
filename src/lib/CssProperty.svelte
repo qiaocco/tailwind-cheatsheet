@@ -18,7 +18,7 @@
                 target="_blank"
                 class="hidden flex items-center gap-1 text-xs font-semibold not-italic text-sky-500 border border-sky-500 px-1 rounded"
             >
-                <img src="/twlogo.svg" alt="" class="w-4" />
+                <img src="/twlogo.svg" alt="Tailwind CSS logo" class="w-4" />
                 Docs
             </a>
 
