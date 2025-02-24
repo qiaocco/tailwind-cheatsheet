@@ -48,9 +48,9 @@
     items = items.filter((item) => item.nodeType === 1);
 
     updateLayout();
-    // window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
     return () => {
-      window.removeEventListener('resize', updateLayout);
+      window.removeEventListener('resize', handleResize);
     };
   });
 </script>
