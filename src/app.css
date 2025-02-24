@@ -4,17 +4,17 @@
 
 @layer utilities {
     .scrollbar::-webkit-scrollbar {
-      width: 2px;
+      width: 3px;
       /* height: 20%; */
     }
   
     .scrollbar::-webkit-scrollbar-track {
       border-radius: 100vh;
-      background: #ebcaca;
+      background: #615e5e;
     }
   
     .scrollbar::-webkit-scrollbar-thumb {
-      background: #615e5e;
+      background: #ebcaca;
       border-radius: 100vh;
       /* border: 1px solid #d3d3d3; */
     }
