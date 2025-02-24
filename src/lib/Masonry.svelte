@@ -33,7 +33,7 @@
     items = items.filter((item) => item.nodeType === 1);
 
     updateLayout();
-    window.addEventListener('resize', updateLayout);
+    // window.addEventListener('resize', updateLayout);
     return () => {
       window.removeEventListener('resize', updateLayout);
     };
