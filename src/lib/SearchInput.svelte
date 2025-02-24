@@ -17,6 +17,7 @@
         if (isCtrlPressed && event.key === "k") {
             event.preventDefault();
             searchInput.focus();
+            searchInput.select();
         }
     };
 
@@ -43,7 +44,10 @@
 <div class="w-full relative">
     <input
         bind:this={searchInput}
-        onfocus={() => kbd.classList.replace("opacity-100", "opacity-0")}
+        onfocus={() => {
+            kbd.classList.replace("opacity-100", "opacity-0");
+            searchInput.select();
+        }}
         onblur={() => kbd.classList.replace("opacity-0", "opacity-100")}
         type="text"
         class="w-full bg-transparent focus:outline-none text-sm border-2 border-sky-500 px-2 py-2 rounded-md flex justify-center items-center gap-2"
