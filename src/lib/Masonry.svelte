@@ -5,10 +5,25 @@
   let numCols = $state(4)
   let items = $state<Element[]>([])
 
+  const handleResize = () => {
+    if (window.visualViewport) {
+      const viewport = window.visualViewport;
+      const isKeyboardOpen = viewport.height < window.innerHeight;
+
+      // Only update layout if the keyboard is not open
+      if (!isKeyboardOpen) {
+        updateLayout();
+      }
+    } else {
+      // Fallback for browsers that don't support visualViewport
+      updateLayout();
+    }
+  };
+
   export const updateLayout = () => {
     const width = document.documentElement.offsetWidth;
 
-    width < 640 ? numCols = 1 : width < 768 ? numCols = 2 : width < 1280 ? numCols = 3 : numCols = 4
+    numCols = width < 640 ? 1 : width < 768 ? 2 : width < 1280 ? 3 : 4;
 
     // Apply the updated column count to the style
     parent.style.setProperty('--numCols', numCols.toString());
@@ -33,7 +48,7 @@
     items = items.filter((item) => item.nodeType === 1);
 
     updateLayout();
-    // window.addEventListener('resize', updateLayout);
+    // window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', updateLayout);
     };
