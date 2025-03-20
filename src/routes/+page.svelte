@@ -23,14 +23,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://tailwind-cheatsheet-fawn.vercel.app/" />
+    <meta property="og:url" content="https://tailwindcss.504b.cc/" />
     <meta property="og:title" content="Tailwind CSS Cheatsheet" />
     <meta property="og:description" content="A quick reference guide to mastering Tailwind CSS. Easily browse and search through all Tailwind utility classes and CSS properties on a single page." />
     <meta property="og:image" content="/twlogo.svg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://tailwind-cheatsheet-fawn.vercel.app/" />
+    <meta property="twitter:url" content="https://tailwindcss.504b.cc/" />
     <meta property="twitter:title" content="Tailwind CSS Cheatsheet" />
     <meta property="twitter:description" content="A quick reference guide to mastering Tailwind CSS. Easily browse and search through all Tailwind utility classes and CSS properties on a single page." />
     <meta property="twitter:image" content="/twlogo.svg" />
