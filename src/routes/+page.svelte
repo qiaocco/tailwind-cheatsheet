@@ -1,6 +1,6 @@
 <script lang="ts">
     import { tw_versions } from "$lib/appStore";
-    import v4 from "$lib/json/v4.0.json";
+    import v4 from "$lib/json/v4.1.json";
 
     let selected_v = $state(tw_versions[0]);
     let jsondata = $state(v4);
