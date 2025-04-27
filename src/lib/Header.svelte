@@ -1,5 +1,5 @@
 <script>
-    import v4 from "$lib/json/v4.0.json";
+    import v4 from "$lib/json/v4.1.json";
     import v3 from "$lib/json/v3.4.17.json";
     import v2 from "$lib/json/v2.2.16.json";
     import v1 from "$lib/json/v1.9.0.json";

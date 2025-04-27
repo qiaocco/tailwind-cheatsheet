@@ -81,4 +81,4 @@ const crawlTWDocs = async (docsUrl, filename) => {
     }
 }
 
-crawlTWDocs('https://tailwindcss.com/docs/installation/using-vite', 'v0.7.4');
+crawlTWDocs('https://tailwindcss.com/docs/installation/using-vite', 'v4.1');
