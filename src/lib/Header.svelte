@@ -82,7 +82,7 @@
         <SearchInput {query} />
         <button
             aria-label="Expand/Collapse"
-            class="bg-sky-500 px-6 rounded-md"
+            class="bg-sky-500 px-6 rounded-md cursor-pointer"
             onclick={() => {
                 if (expanded) {
                     document
