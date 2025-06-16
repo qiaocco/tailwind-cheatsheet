@@ -1,9 +1,4 @@
-<script>
-    import v4 from "$lib/json/v4.1.json";
-    import v3 from "$lib/json/v3.4.17.json";
-    import v2 from "$lib/json/v2.2.16.json";
-    import v1 from "$lib/json/v1.9.0.json";
-    import v0 from "$lib/json/v0.7.4.json";
+<script lang="ts">
     import { tw_versions } from "$lib/appStore";
     import SearchInput from "./SearchInput.svelte";
     import ThemeSwitch from "./ThemeSwitch.svelte";
@@ -11,14 +6,10 @@
     let { query, selected_v = $bindable(), jsondata = $bindable() } = $props();
     let expanded = $state(false);
 
-    async function loadData() {
-        switch (selected_v) {
-            case tw_versions[0]: jsondata = v4; break;
-            case tw_versions[1]: jsondata = v3; break;
-            case tw_versions[2]: jsondata = v2; break;
-            case tw_versions[3]: jsondata = v1; break;
-            case tw_versions[4]: jsondata = v0; break;
-        }
+    async function loadData(version: string) {
+        const res = await fetch(`/json/v${version}.json`)
+        const data = await res.json()
+        jsondata = data
     }
 </script>
 
@@ -30,7 +21,7 @@
                 <select
                     class="bg-transparent border border-sky-500/40 rounded-full text-xs outline-none"
                     bind:value={selected_v}
-                    onchange={loadData}
+                    onchange={() => loadData(selected_v)}
                 >
                     {#each tw_versions as version}
                         <option value={version}>v{version}</option>
