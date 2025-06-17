@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import { onMount } from "svelte";
     import { fade } from 'svelte/transition';
 
@@ -22,7 +23,7 @@
     <div class="fixed top-0 left-0 w-full h-full z-90 bg-black/75"></div>
     <div class="fixed top-1/2 left-1/2 z-91 -translate-x-50 -translate-y-1/2 rounded-lg shadow-2xl hover:scale-101 transition bg-white/80 p-2">
         <a target="_blank" href="https://cmwlabs.lemonsqueezy.com?aff=zmn621">
-            <img src="/taillens/taillens_popup.png" class="w-md rounded-lg" alt="ad">
+            <img src="{base}/taillens/taillens_popup.png" class="w-md rounded-lg" alt="ad">
         </a>
         <button onclick={closePopup} class="absolute top-4 right-4 text-white/50 cursor-pointer hover:scale-110 transition" aria-label="close">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">

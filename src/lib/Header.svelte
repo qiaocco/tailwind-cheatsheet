@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     import { tw_versions } from "$lib/appStore";
     import SearchInput from "./SearchInput.svelte";
     import ThemeSwitch from "./ThemeSwitch.svelte";
@@ -127,6 +128,6 @@
     </div>
     </div>
     <a target="_blank" href="https://cmwlabs.lemonsqueezy.com?aff=zmn621">
-        <img src="/taillens/taillens_light.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
+        <img src="{base}/taillens/taillens_light.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
     </a>
 </header>
