@@ -127,7 +127,7 @@
         </button>
     </div>
     </div>
-    <a target="_blank" href="https://cmwlabs.lemonsqueezy.com?aff=zmn621">
+    <a target="_blank" href="https://taillens.io/?aff=zmn621">
         <img src="{base}/taillens/taillens_light.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
     </a>
 </header>
