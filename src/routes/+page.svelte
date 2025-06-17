@@ -12,6 +12,7 @@
     import Header from "$lib/Header.svelte";
     import Toast from "$lib/Toast.svelte";
     import CssProperty from "$lib/CssProperty.svelte";
+    import Popup from "$lib/Popup.svelte";
 </script>
 
 <svelte:head>
@@ -51,3 +52,5 @@
 </main>
 
 <Toast {copied} {toastVisible} />
+
+<Popup />

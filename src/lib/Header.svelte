@@ -13,7 +13,8 @@
     }
 </script>
 
-<header class="px-4">
+<header>
+    <div class="px-4">
     <div class="flex justify-between">
         <div class="font-bold">
             <span class="text-sky-500 text-sm ">
@@ -124,4 +125,8 @@
             {/if}
         </button>
     </div>
+    </div>
+    <a target="_blank" href="https://cmwlabs.lemonsqueezy.com?aff=zmn621">
+        <img src="/taillens/taillens_light.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
+    </a>
 </header>
