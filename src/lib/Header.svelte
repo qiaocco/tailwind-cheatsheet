@@ -128,6 +128,6 @@
     </div>
     </div>
     <a target="_blank" href="https://taillens.io/?aff=zmn621">
-        <img src="{base}/taillens/taillens_light.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
+        <img src="{base}/taillens/taillens_light2.png" class="w-full not-dark:border border-2 border-[#111828] rounded-lg" alt="ad">
     </a>
 </header>
