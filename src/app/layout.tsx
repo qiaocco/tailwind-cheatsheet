@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
   title: "Tailwind CSS Cheatsheet",
@@ -44,6 +45,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/icon.svg" sizes="any" />
       </head>
+      <GoogleAnalytics gaId="G-10E14JPSK5" />
       <body>
         {children}
       </body>
