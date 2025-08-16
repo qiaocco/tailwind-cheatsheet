@@ -38,11 +38,11 @@ export default function SearchInput() {
       }
       else if (query.length >= 2) {
           details.forEach((el) => {
-              const h2Text = el.querySelector('h2')?el.querySelector('h2').textContent:'';
-              const h3Text = el.querySelector('h3')?el.querySelector('h3').textContent:'';
+              const h2Text = el.querySelector('h2')?el.querySelector('h2')?.textContent:'';
+              const h3Text = el.querySelector('h3')?el.querySelector('h3')?.textContent:'';
               // const tdText = el.querySelectorAll('td')?el.querySelectorAll('td').textContent:'';
 
-              (h2Text+h3Text).toLowerCase().includes(query.toLowerCase())
+              (h2Text!+h3Text).toLowerCase().includes(query.toLowerCase())
                   ? el.classList.remove("hidden")
                   : el.classList.add("hidden");
               // Open only the ones that does not have the word "Color"
