@@ -41,6 +41,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200">
+      <head>
+        <link rel="icon" href="/icon.svg" sizes="any" />
+      </head>
       <body>
         {children}
       </body>
