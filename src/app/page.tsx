@@ -5,6 +5,7 @@ import MasonryLayout from "@/components/MasonryLayout";
 import { loadTwJson, twVersions } from "@/utils";
 import Toast from "@/components/Toast";
 import { TwJson } from "@/utils/types";
+import AdPopup from "@/components/AdPopup";
 
 export default function Home() {
   const [currTw, setCurrTw] = useState(twVersions[0]);
@@ -21,6 +22,7 @@ export default function Home() {
     <div className="max-w-screen-2xl mx-auto p-4">
       <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} />
       <Toast copied={""} toastVisible={false} />
+      <AdPopup />
     </div>
   );
 }
