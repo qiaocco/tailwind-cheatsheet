@@ -25,9 +25,10 @@ export default function AdPopup() {
             <Image
               width={1080}
               height={1080}
-              src="/taillens_popup.png"
+              src="/tailwind-cheatsheet/taillens_popup.png"
               className="w-md rounded-lg"
               alt="taillens"
+              priority={false}
             />
           </a>
           <button
