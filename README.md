@@ -1,8 +1,8 @@
 # Tailwind Cheatsheet
 
-Tailwind Cheatsheet is a website that provides a quick reference for Tailwind CSS classes. 
+[Tailwind Cheatsheet](https://tailwindcss.504b.cc/) is a quick reference for Tailwind CSS classes. 
 
-It is built using Next.js and of course Tailwind CSS.
+Built with Next.js and Tailwind CSS.
 
 ## Features
 
