@@ -20,11 +20,15 @@ export default function Home() {
   }, [currTw]);
 
   return (
-    <div className="max-w-screen-2xl mx-auto p-4">
-      <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} />
+    <>
+    <div className="min-h-dvh flex flex-col max-w-screen-2xl mx-auto p-4">
+      <div className="flex-1 h-full">
+        <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} />
+      </div>
       <Footer />
-      <Toast copied={""} toastVisible={false} />
-      <AdPopup />
     </div>
+    <Toast copied={""} toastVisible={false} />
+    <AdPopup />
+    </>
   );
 }
