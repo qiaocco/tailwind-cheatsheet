@@ -25,7 +25,7 @@ export default function AdPopup() {
             <Image
               width={1080}
               height={1080}
-              src="/taillens_popup.png"
+              src="/tlens.png"
               className="w-md rounded-lg"
               alt="taillens"
               priority={false}
