@@ -28,7 +28,7 @@ export default function Home() {
       <Footer />
     </div>
     <Toast copied={""} toastVisible={false} />
-    <AdPopup />
+    {/* <AdPopup /> */}
     </>
   );
 }
