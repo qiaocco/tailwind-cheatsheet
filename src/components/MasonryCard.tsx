@@ -26,7 +26,7 @@ export default function MasonryCard({ idx, item, currTw, setCurrTw }: Props) {
 
 	return (
 		<>
-		<TwCard idx={idx} title={item.title} children={item.children} />
+			<TwCard idx={idx} title={item.title} children={item.children} />
 		</>
 	)
 }

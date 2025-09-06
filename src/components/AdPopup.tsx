@@ -23,9 +23,9 @@ export default function AdPopup() {
         <div className="fixed top-1/2 left-1/2 z-91 -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-2xl hover:scale-101 transition bg-white/80 p-2 max-w-full w-[90%] sm:w-auto">
           <a target="_blank" href="https://taillens.io/?aff=zmn621">
             <Image
-              width={1080}
-              height={1080}
-              src="https://tailwindcss.504b.cc/tlens.png"
+              width={512}
+              height={512}
+              src="/twlens.jpg"
               className="w-md rounded-lg"
               alt="taillens"
               priority={false}
