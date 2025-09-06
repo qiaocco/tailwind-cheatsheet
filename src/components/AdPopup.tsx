@@ -22,10 +22,13 @@ export default function AdPopup() {
         <div className="fixed top-0 left-0 w-full h-full z-90 bg-black/75"></div>
         <div className="fixed top-1/2 left-1/2 z-91 -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-2xl hover:scale-101 transition bg-white/80 p-2 max-w-full w-[90%] sm:w-auto">
           <a target="_blank" href="https://taillens.io/?aff=zmn621">
-            <img
-              src="/tlens.png"
+            <Image
+              width={1080}
+              height={1080}
+              src="https://tailwindcss.504b.cc/tlens.png"
               className="w-md rounded-lg"
               alt="taillens"
+              priority={false}
             />
           </a>
           <button
