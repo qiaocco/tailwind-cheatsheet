@@ -48,7 +48,7 @@ export default function MasonryLayout({ currTw, setCurrTw, twJson }: Props) {
 			items={[
 				{ title: 'header', children: [] },
 				...twJson,
-				{ title: 'ad', children: [] },
+				// { title: 'ad', children: [] },
 			]}
 			config={MasonryConfig}
 			render={(item, idx) => <MasonryCard idx={idx} item={item} setCurrTw={setCurrTw} currTw={currTw} /> }
