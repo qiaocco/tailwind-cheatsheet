@@ -21,11 +21,19 @@ export default function Home() {
 
   return (
     <>
-    <div className="min-h-dvh flex flex-col max-w-screen-2xl mx-auto p-4">
-      <div className="flex-1 h-full">
-        <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} />
+    <div className="min-h-dvh flex max-w-screen-2xl mx-auto">
+      {/* 左侧搜索栏 */}
+      <div className="w-32 lg:w-48 py-3 flex-shrink-0 border-r border-slate-300">
+        <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} showHeaderOnly />
       </div>
-      <Footer />
+
+      {/* 右侧卡片区域 */}
+      <div className="flex-1 flex flex-col p-4 overflow-y-auto">
+        <div className="flex-1">
+          <MasonryLayout currTw={currTw} setCurrTw={setCurrTw} twJson={jsonData} />
+        </div>
+        <Footer />
+      </div>
     </div>
     <Toast copied={""} toastVisible={false} />
     <AdPopup />

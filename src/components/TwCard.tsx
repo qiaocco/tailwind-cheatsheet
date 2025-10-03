@@ -27,7 +27,7 @@ export default function TwCard({ idx, title, children }: Props) {
             }}
           >
             <summary className="cursor-pointer flex justify-between py-2 px-4 hover:bg-white dark:hover:bg-black group-open:bg-white dark:group-open:bg-black">
-              <h3 className="text-xs font-semibold">{b.title}</h3>
+              <h3 className="text-md font-semibold text-blue-600 dark:text-blue-300">{b.title}</h3>
 
               <div className="flex gap-2">
                 <a
@@ -44,11 +44,11 @@ export default function TwCard({ idx, title, children }: Props) {
 
             <div className="px-4 pb-2 bg-white dark:bg-black">
               <p className="text-sm italic mb-2">{b.description}</p>
-              <div className="max-h-80 overflow-y-auto scrollbar">
-                <table className="w-full">
+              <div className="max-h-80 overflow-auto scrollbar">
+                <table className="w-full min-w-max">
                   <tbody>
                     {b.table.map((c, j) =>
-                      <tr key={j+c.class} className="text-xs cursor-copy font-mono hover:bg-gray-100 dark:hover:bg-gray-900 group/tr" onClick={() => {
+                      <tr key={j+c.class} className="text-xs cursor-copy font-mono hover:bg-gray-100 dark:hover:bg-gray-900 group/tr " onClick={() => {
                         navigator.clipboard.writeText(c.class)
                         setCopied(c.class)
                         setToastVisible(true)
@@ -56,7 +56,7 @@ export default function TwCard({ idx, title, children }: Props) {
                           setToastVisible(false)
                         }, 1500);
                       }}>
-                        <td className="pt-1 pb-1 text-sky-500 "><code>.{c.class}</code></td>
+                        <td className="pt-1 pb-1 text-fuchsia-800 "><code>.{c.class}</code></td>
                         <td className=" p-1 text-sky-500 "><code>{c.properties}</code></td>
                         <td className="pt-1 pb-1 pr-1 italic">{c.value}</td>
                       </tr>

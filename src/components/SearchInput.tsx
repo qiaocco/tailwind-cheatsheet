@@ -61,7 +61,7 @@ export default function SearchInput() {
         }}
         onBlur={() => kbdRef.current?.classList.replace("opacity-0", "opacity-100")}
         type="text"
-        className="w-full bg-transparent focus:outline-none text-sm border-2 border-sky-500 px-2 py-2 rounded-md flex justify-center items-center gap-2"
+        className="w-full bg-transparent focus:outline-none text-sm border-2 border-sky-500 px-2 py-2 rounded-md flex justify-center items-center gap-1"
         placeholder="Search..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
